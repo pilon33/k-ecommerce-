@@ -45,3 +45,15 @@ Se valorará:
 Diseño y construcción del servicio.
 Calidad de Código.
 Resultados correctos en los test.
+
+Ejecutar el servicio
+Para ejecutar o levantar el servicio debemos seguir usar los siguientes comandos
+
+Primero debemos instalar y generar el endpoint (API-First) https://swagger.io/resources/articles/adopting-an-api-first-approach/
+
+Running the Project
+
+./mvnw spring-boot:run
+
+Running the tests
+./mvnw test
